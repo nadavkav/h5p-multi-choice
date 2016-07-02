@@ -40,6 +40,9 @@
   box-shadow: 0 0.1em 0 rgba(0, 0, 0, 0.3);
   line-height: 1.5em;
 }
+.dir-rtl .h5p-multichoice .h5p-alternative-container {
+  text-align: right;
+}
 .h5p-multichoice .h5p-answer .h5p-alternative-container:before {
   font-family: icomoon-multichoice;
   border: medium none;
@@ -52,6 +55,10 @@
   margin: auto;
   text-decoration: none;
   color: #494949;
+}
+.dir-rtl .h5p-multichoice .h5p-answer .h5p-alternative-container:before {
+  right: 0.5em;  
+  left: auto;
 }
 .h5p-multichoice .h5p-answer[role="radio"] .h5p-alternative-container:before {
   content: "\e600";
